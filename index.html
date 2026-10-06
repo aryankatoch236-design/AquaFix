@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AquaFix Plumbing Services - Fast, reliable plumbing repairs, pipe fitting, bathroom fixtures, and 24/7 emergency plumbing at your door in Dharamshala, Himachal Pradesh.">
+  <meta name="theme-color" content="#0A192F">
+  <title>AquaFix Plumbing Services | Leaks, Pipes, Taps. Fixed Today.</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans (Headlines) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== STICKY NAVBAR ==================== -->
+  <header class="site-header" id="header">
+    <div class="container navbar-container">
+      
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="AquaFix Plumbing Services Home">
+        <span class="logo-icon-box" aria-hidden="true">
+          <!-- Wrench & Water Drop Plumbing SVG -->
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+          </svg>
+        </span>
+        <span class="brand-name">
+          <span class="brand-aqua">Aqua</span><span class="brand-fix">Fix</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Call Now button + Hamburger on mobile -->
+      <div class="header-actions">
+        <a href="tel:+910000000000" data-business-link="phone" class="btn btn-copper btn-nav" aria-label="Call AquaFix now">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>Call Now</span>
+        </a>
+
+        <!-- Hamburger Menu Toggle Button -->
+        <button type="button" class="hamburger-btn" id="hamburger-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-inner">
+        <ul class="mobile-nav-list">
+          <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+          <li><a href="#services" class="mobile-nav-link">Services</a></li>
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-footer">
+          <a href="tel:+910000000000" data-business-link="phone" class="btn btn-copper btn-full mobile-call-btn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>Call: <span data-business="phone">+91 00000 00000</span></span>
+          </a>
+          <a href="https://wa.me/910000000000" target="_blank" rel="noopener noreferrer" data-business-link="whatsapp" class="mobile-whatsapp-quick">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.05-1.07l-.29-.17-3.12.82.83-3.04-.19-.3a8.21 8.21 0 0 1-1.26-4.48c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.19-.09-1.12-.55-1.29-.62-.17-.06-.3-.09-.43.09-.12.19-.5 1.62-.61.75-.12.12-.24.14-.43.05-.19-.1-.8-.29-1.52-.93-.56-.5-.94-1.12-1.05-1.31-.11-.19-.01-.29.08-.38.08-.08.19-.22.28-.33.09-.11.12-.19.19-.31.06-.12.03-.24-.01-.33-.05-.09-.43-1.03-.59-1.42-.15-.37-.3-.32-.43-.33-.11-.01-.24-.01-.37-.01-.12 0-.33.05-.5.24-.17.19-.66.65-.66 1.58 0 .93.68 1.83.77 1.96.1.12 1.34 2.05 3.25 2.87.45.2.81.31 1.09.4.46.15.87.13 1.2.08.37-.06 1.12-.46 1.28-.9.16-.45.16-.83.11-.91-.04-.08-.17-.13-.36-.23z"></path>
+            </svg>
+            <span>WhatsApp Us</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Left: Text Content -->
+        <div class="hero-content">
+          
+          <!-- 24/7 Emergency Service Badge -->
+          <div class="hero-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span>24/7 Emergency Service</span>
+          </div>
+
+          <!-- Headline -->
+          <h1 class="hero-title">
+            Leaks, Pipes, Taps. <span class="text-copper-highlight">Fixed Today.</span>
+          </h1>
+
+          <!-- One Line Subtext -->
+          <p class="hero-subtext" data-business="tagline">
+            Fast, reliable plumbing at your door. Professional plumbing across Dharamshala with certified technicians and upfront pricing.
+          </p>
+
+          <!-- Buttons: Call Now and WhatsApp Us -->
+          <div class="hero-cta-group">
+            <a href="tel:+910000000000" data-business-link="phone" class="btn btn-copper btn-lg">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>Call Now</span>
+            </a>
+            
+            <a href="https://wa.me/910000000000" target="_blank" rel="noopener noreferrer" data-business-link="whatsapp" class="btn btn-secondary btn-lg">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.05-1.07l-.29-.17-3.12.82.83-3.04-.19-.3a8.21 8.21 0 0 1-1.26-4.48c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.19-.09-1.12-.55-1.29-.62-.17-.06-.3-.09-.43.09-.12.19-.5 1.62-.61.75-.12.12-.24.14-.43.05-.19-.1-.8-.29-1.52-.93-.56-.5-.94-1.12-1.05-1.31-.11-.19-.01-.29.08-.38.08-.08.19-.22.28-.33.09-.11.12-.19.19-.31.06-.12.03-.24-.01-.33-.05-.09-.43-1.03-.59-1.42-.15-.37-.3-.32-.43-.33-.11-.01-.24-.01-.37-.01-.12 0-.33.05-.5.24-.17.19-.66.65-.66 1.58 0 .93.68 1.83.77 1.96.1.12 1.34 2.05 3.25 2.87.45.2.81.31 1.09.4.46.15.87.13 1.2.08.37-.06 1.12-.46 1.28-.9.16-.45.16-.83.11-.91-.04-.08-.17-.13-.36-.23z"></path>
+              </svg>
+              <span>WhatsApp Us</span>
+            </a>
+          </div>
+
+          <!-- Subtle Trust Row Under Buttons -->
+          <div class="hero-trust-row">
+            <div class="trust-item">
+              <div class="trust-stars" aria-label="4.8 out of 5 rating">★★★★★</div>
+              <span class="trust-caption"><strong>4.8 / 5</strong> (500+ Local Jobs)</span>
+            </div>
+            <div class="trust-separator" aria-hidden="true">•</div>
+            <div class="trust-item">
+              <span class="trust-badge-dot"></span>
+              <span class="trust-caption"><strong>30-Min</strong> Fast Arrival</span>
+            </div>
+            <div class="trust-separator" aria-hidden="true">•</div>
+            <div class="trust-item">
+              <span class="trust-badge-dot"></span>
+              <span class="trust-caption"><strong>100%</strong> Clear Pricing</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Large Image Placeholder -->
+        <div class="hero-visual">
+          <div class="img-placeholder hero-placeholder" role="img" aria-label="Plumber inspecting residential pipe fitting placeholder">
+            <div class="placeholder-content">
+              <div class="camera-icon-circle">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                  <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+              </div>
+              <span class="placeholder-title">Add your image here</span>
+              <span class="placeholder-caption">Professional Plumbing Service in Action</span>
+            </div>
+
+            <!-- Floating Hero Badge -->
+            <div class="floating-badge">
+              <div class="floating-badge-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="floating-badge-text">
+                <span class="badge-title">On-Time Guarantee</span>
+                <span class="badge-sub">Available 7 Days a Week</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Our Expertise</span>
+          <h2 class="section-title">Complete Plumbing Services</h2>
+          <p class="section-subtitle">From emergency leak fixes to complete bathroom sanitary installations, we handle it all.</p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Card 1: Leak Repair -->
+          <article class="service-card service-featured">
+            <div class="service-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <div class="service-badge-pill">Emergency Dispatch</div>
+            <h3 class="service-card-title">Leak Repair</h3>
+            <p class="service-card-desc">Rapid leak detection and lasting repair for hidden wall pipes, ceilings, and leaking taps.</p>
+          </article>
+
+          <!-- Card 2: Pipe Fitting -->
+          <article class="service-card">
+            <div class="service-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M3 7h5v5H3z"></path>
+                <path d="M16 12h5v5h-5z"></path>
+                <path d="M8 9.5h8V12"></path>
+                <path d="M12 8v8"></path>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Pipe Fitting</h3>
+            <p class="service-card-desc">Precision CPVC, PVC, and copper pipe lines installed for seamless hot and cold water flow.</p>
+          </article>
+
+          <!-- Card 3: Bathroom Fitting -->
+          <article class="service-card">
+            <div class="service-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"></path>
+                <path d="M12 4v8"></path>
+                <path d="M8 8h8"></path>
+                <circle cx="12" cy="16" r="1"></circle>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Bathroom Fitting</h3>
+            <p class="service-card-desc">Complete fitting of faucets, showers, washbasins, commodes, and sanitary accessories.</p>
+          </article>
+
+          <!-- Card 4: Water Tank Cleaning -->
+          <article class="service-card">
+            <div class="service-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="3"></rect>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+                <line x1="7" y1="15" x2="9" y2="15"></line>
+                <line x1="15" y1="15" x2="17" y2="15"></line>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Water Tank Cleaning</h3>
+            <p class="service-card-desc">Deep pressure cleaning and antibacterial sanitization for rooftop and underground water tanks.</p>
+          </article>
+
+          <!-- Card 5: Drain Unblocking -->
+          <article class="service-card">
+            <div class="service-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M12 3a9 9 0 0 1 9 9"></path>
+                <path d="M12 7a5 5 0 0 1 5 5"></path>
+                <circle cx="12" cy="12" r="1.5"></circle>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Drain Unblocking</h3>
+            <p class="service-card-desc">Fast clearing of choked kitchen drains, clogged toilets, gullies, and sewer lines with pro tools.</p>
+          </article>
+
+          <!-- Card 6: Water Heater Installation -->
+          <article class="service-card">
+            <div class="service-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="5" y="2" width="14" height="20" rx="3"></rect>
+                <line x1="12" y1="18" x2="12" y2="18.01"></line>
+                <path d="M10 9a2 2 0 0 1 4 0c0 1.5-2 2-2 3.5"></path>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Water Heater Installation</h3>
+            <p class="service-card-desc">Safe fitting, pipeline connections, and maintenance for electric and gas geysers.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="about-grid">
+          
+          <!-- Image Placeholder on One Side -->
+          <div class="about-visual">
+            <div class="img-placeholder about-placeholder" role="img" aria-label="AquaFix Plumbing Services expert team placeholder">
+              <div class="placeholder-content">
+                <div class="camera-icon-circle">
+                  <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="placeholder-title">Add your image here</span>
+                <span class="placeholder-caption">AquaFix Technicians & Fully Equipped Service Van</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text and Highlights on the Other Side -->
+          <div class="about-content">
+            <span class="section-tag">About AquaFix</span>
+            <h2 class="section-title">Dharamshala's Trusted Local Plumbing Experts</h2>
+            
+            <!-- Exactly 3 lines of text -->
+            <div class="about-text-lines">
+              <p class="about-line">AquaFix Plumbing Services is Dharamshala's dedicated neighborhood plumbing provider, delivering rapid and dependable water solutions to homes and businesses across the Kangra valley.</p>
+              <p class="about-line">Our certified plumbers carry advanced pipe inspection gear and top-tier brass fittings to fix urgent leakages, stubborn clogs, and complete sanitary installations in a single visit.</p>
+              <p class="about-line">We believe in transparent upfront rates with zero surprise charges, courteous service, and spotless clean-up after every job so your routine stays completely uninterrupted.</p>
+            </div>
+
+            <!-- 3 Highlight Numbers with Data Attributes for Smooth Count-Up -->
+            <div class="about-highlights-grid">
+              
+              <div class="highlight-stat-card">
+                <div class="stat-number" data-count="500" data-suffix="+">500+</div>
+                <div class="stat-label">Jobs Done</div>
+              </div>
+
+              <div class="highlight-stat-card">
+                <div class="stat-number" data-count="8" data-suffix="+">8+</div>
+                <div class="stat-label">Years</div>
+              </div>
+
+              <div class="highlight-stat-card">
+                <div class="stat-number" data-count="4.8" data-decimals="1">4.8</div>
+                <div class="stat-label">Rating</div>
+              </div>
+
+            </div>
+
+            <div class="about-action">
+              <a href="tel:+910000000000" data-business-link="phone" class="btn btn-primary">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span>Call An Expert Plumber</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== HOW IT WORKS SECTION ==================== -->
+    <section class="section steps-section" id="how-it-works">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Quick & Easy</span>
+          <h2 class="section-title">How It Works</h2>
+          <p class="section-subtitle">Get your plumbing problem resolved in 3 hassle-free steps.</p>
+        </div>
+
+        <div class="steps-grid">
+          
+          <!-- Step 1: Call or WhatsApp -->
+          <div class="step-card">
+            <div class="step-header">
+              <span class="step-number">01</span>
+              <div class="step-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+            </div>
+            <h3 class="step-title">Call or WhatsApp</h3>
+            <p class="step-desc">Tell us your plumbing issue and address. We give immediate advice and dispatch the nearest available plumber.</p>
+          </div>
+
+          <!-- Step 2: Plumber Arrives -->
+          <div class="step-card">
+            <div class="step-header">
+              <span class="step-number">02</span>
+              <div class="step-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="1" y="3" width="15" height="13"></rect>
+                  <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                  <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                  <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                </svg>
+              </div>
+            </div>
+            <h3 class="step-title">Plumber Arrives</h3>
+            <p class="step-desc">Our equipped plumber arrives at your doorstep in Dharamshala with all parts, examines the problem, and gives clear pricing.</p>
+          </div>
+
+          <!-- Step 3: Problem Solved -->
+          <div class="step-card">
+            <div class="step-header">
+              <span class="step-number">03</span>
+              <div class="step-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+            </div>
+            <h3 class="step-title">Problem Solved</h3>
+            <p class="step-desc">The job is completed swiftly and cleanly, water pressure is fully tested, and you enjoy a 100% leak-free home.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Recent Projects</span>
+          <h2 class="section-title">Our Work</h2>
+          <p class="section-subtitle">Take a look at recent plumbing repairs and sanitary installations completed across the town.</p>
+        </div>
+
+        <div class="gallery-grid">
+          
+          <!-- Gallery Item 1 -->
+          <div class="gallery-card">
+            <div class="img-placeholder gallery-placeholder" role="img" aria-label="Modern Bathroom Sanitary Fitting placeholder">
+              <div class="placeholder-content">
+                <div class="camera-icon-circle">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="placeholder-title">Add your image here</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-item-title">Modern Bathroom Sanitary Fitting</h3>
+              <span class="gallery-location">Civil Lines, Dharamshala</span>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="gallery-card">
+            <div class="img-placeholder gallery-placeholder" role="img" aria-label="Kitchen Sink Drainage & Trap Replacement placeholder">
+              <div class="placeholder-content">
+                <div class="camera-icon-circle">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="placeholder-title">Add your image here</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-item-title">Kitchen Sink Drainage & Trap Replacement</h3>
+              <span class="gallery-location">Kotwali Bazaar, Dharamshala</span>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3 -->
+          <div class="gallery-card">
+            <div class="img-placeholder gallery-placeholder" role="img" aria-label="High-Pressure Water Tank Clean & Sanitization placeholder">
+              <div class="placeholder-content">
+                <div class="camera-icon-circle">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="placeholder-title">Add your image here</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-item-title">Overhead Water Tank Sanitization</h3>
+              <span class="gallery-location">Kachehri Road, Dharamshala</span>
+            </div>
+          </div>
+
+          <!-- Gallery Item 4 -->
+          <div class="gallery-card">
+            <div class="img-placeholder gallery-placeholder" role="img" aria-label="Emergency Pipe Burst Repair & Soldering placeholder">
+              <div class="placeholder-content">
+                <div class="camera-icon-circle">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="placeholder-title">Add your image here</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-item-title">Emergency Concealed Pipe Burst Repair</h3>
+              <span class="gallery-location">McLeod Ganj, HP</span>
+            </div>
+          </div>
+
+          <!-- Gallery Item 5 -->
+          <div class="gallery-card">
+            <div class="img-placeholder gallery-placeholder" role="img" aria-label="Geyser & Water Heater Installation placeholder">
+              <div class="placeholder-content">
+                <div class="camera-icon-circle">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="placeholder-title">Add your image here</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-item-title">Instant Geyser & Valve Installation</h3>
+              <span class="gallery-location">Dharamkot, HP</span>
+            </div>
+          </div>
+
+          <!-- Gallery Item 6 -->
+          <div class="gallery-card">
+            <div class="img-placeholder gallery-placeholder" role="img" aria-label="Complete Commercial Pipeline Layout placeholder">
+              <div class="placeholder-content">
+                <div class="camera-icon-circle">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="placeholder-title">Add your image here</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-item-title">Restaurant Multi-line Water Connection</h3>
+              <span class="gallery-location">Main Bazaar, Dharamshala</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS SECTION ==================== -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Customer Reviews</span>
+          <h2 class="section-title">What Our Customers Say</h2>
+          <p class="section-subtitle">Real feedback from local residents and business owners in Dharamshala.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p class="testimonial-quote">
+              "A major pipe burst under our bathroom sink on a Sunday morning. AquaFix arrived in under 35 minutes, replaced the broken coupling, and fixed it flawlessly. True lifesavers!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-wrap">
+                <div class="avatar-placeholder" role="img" aria-label="Photo placeholder of Vikram Sen" title="Add your image here">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="avatar-placeholder-text">Add your image here</span>
+              </div>
+              <div class="author-details">
+                <h3 class="author-name">Vikram Sen</h3>
+                <span class="author-meta">Homeowner, Civil Lines</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p class="testimonial-quote">
+              "We hired AquaFix for complete sanitary fittings in our new guest house. Clean piping, neat alignment, and zero leaks. Very polite technicians and reasonable charges."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-wrap">
+                <div class="avatar-placeholder" role="img" aria-label="Photo placeholder of Meenakshi Sharma" title="Add your image here">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="avatar-placeholder-text">Add your image here</span>
+              </div>
+              <div class="author-details">
+                <h3 class="author-name">Meenakshi Sharma</h3>
+                <span class="author-meta">Homestay Host, Kotwali Bazaar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p class="testimonial-quote">
+              "Our overhead water tank hadn't been cleaned in years. Their team did a thorough high-pressure wash and disinfection. Water quality has improved noticeably. Highly recommended."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-wrap">
+                <div class="avatar-placeholder" role="img" aria-label="Photo placeholder of Rakesh Dogra" title="Add your image here">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                    <circle cx="12" cy="13" r="4"></circle>
+                  </svg>
+                </div>
+                <span class="avatar-placeholder-text">Add your image here</span>
+              </div>
+              <div class="author-details">
+                <h3 class="author-name">Rakesh Dogra</h3>
+                <span class="author-meta">Hotel Owner, McLeod Ganj</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">Need A Plumber?</span>
+          <h2 class="section-title">Get in Touch With Us</h2>
+          <p class="section-subtitle">Call us directly for emergencies or submit an enquiry and we will get back to you immediately.</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Left: Contact Details & Map Placeholder -->
+          <div class="contact-info-col">
+            
+            <div class="contact-cards-group">
+              
+              <!-- Phone Card -->
+              <div class="contact-info-card">
+                <div class="info-card-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="info-card-text">
+                  <span class="info-label">Phone & WhatsApp</span>
+                  <a href="tel:+910000000000" data-business-link="phone" class="info-value-link" data-business="phone">+91 00000 00000</a>
+                </div>
+              </div>
+
+              <!-- Email Card -->
+              <div class="contact-info-card">
+                <div class="info-card-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="info-card-text">
+                  <span class="info-label">Email Address</span>
+                  <a href="mailto:hello@yourbusiness.com" data-business-link="email" class="info-value-link" data-business="email">hello@yourbusiness.com</a>
+                </div>
+              </div>
+
+              <!-- Address Card -->
+              <div class="contact-info-card">
+                <div class="info-card-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-card-text">
+                  <span class="info-label">Shop Location</span>
+                  <span class="info-value-text" data-business="address">Main Bazaar, Dharamshala, Himachal Pradesh</span>
+                </div>
+              </div>
+
+              <!-- Hours Card -->
+              <div class="contact-info-card">
+                <div class="info-card-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="info-card-text">
+                  <span class="info-label">Service Hours</span>
+                  <span class="info-value-text" data-business="hours">8 AM to 9 PM, all 7 days. 24/7 emergency service.</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Map Placeholder Box -->
+            <div class="map-placeholder-card">
+              <div class="img-placeholder map-placeholder" role="img" aria-label="Interactive map placeholder for Main Bazaar Dharamshala">
+                <div class="placeholder-content">
+                  <div class="camera-icon-circle">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                      <circle cx="12" cy="13" r="4"></circle>
+                    </svg>
+                  </div>
+                  <span class="placeholder-title">Add your image here</span>
+                  <span class="placeholder-caption">Map View: Main Bazaar, Dharamshala</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: Enquiry Form -->
+          <div class="contact-form-col">
+            <div class="form-container-card">
+              <h3 class="form-title">Request a Plumbing Visit</h3>
+              <p class="form-subtitle">Fill in the details below and our service team will call you within 15 minutes.</p>
+
+              <!-- Success Alert Message (Shown after submit) -->
+              <div class="form-success-alert" id="form-success-banner" role="alert" hidden>
+                <div class="alert-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <div class="alert-text">
+                  <strong>Thanks, we will call you soon</strong>
+                  <p>Our plumber will contact you promptly to confirm the dispatch time.</p>
+                </div>
+              </div>
+
+              <!-- The Enquiry Form: Name, Phone, Problem, Send Enquiry button -->
+              <form id="enquiry-form" class="enquiry-form" novalidate>
+                
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Your Name <span class="required-asterisk">*</span></label>
+                  <input 
+                    type="text" 
+                    id="form-name" 
+                    name="name" 
+                    class="form-control" 
+                    placeholder="e.g. Sunil Kumar" 
+                    required
+                  >
+                  <span class="field-error-msg" id="name-error">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-phone" class="form-label">Phone Number <span class="required-asterisk">*</span></label>
+                  <input 
+                    type="tel" 
+                    id="form-phone" 
+                    name="phone" 
+                    class="form-control" 
+                    placeholder="e.g. +91 00000 00000" 
+                    required
+                  >
+                  <span class="field-error-msg" id="phone-error">Please enter a valid phone number.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-problem" class="form-label">Describe Your Plumbing Problem <span class="required-asterisk">*</span></label>
+                  <textarea 
+                    id="form-problem" 
+                    name="problem" 
+                    rows="3" 
+                    class="form-control" 
+                    placeholder="e.g. Pipe leak under kitchen sink, low water pressure, blocked drain, or water heater installation..."
+                    required
+                  ></textarea>
+                  <span class="field-error-msg" id="problem-error">Please describe the problem.</span>
+                </div>
+
+                <button type="submit" class="btn btn-copper btn-full btn-submit" id="submit-btn">
+                  <span>Send Enquiry</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Brand Info -->
+        <div class="footer-col footer-col-brand">
+          <a href="#hero" class="brand-logo footer-logo" aria-label="AquaFix Plumbing Services Home">
+            <span class="logo-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+              </svg>
+            </span>
+            <span class="brand-name">
+              <span class="brand-aqua">Aqua</span><span class="brand-fix">Fix</span>
+            </span>
+          </a>
+          <p class="footer-tagline" data-business="tagline">Fast, reliable plumbing at your door.</p>
+          <p class="footer-desc">Professional residential & commercial plumbing, 24/7 emergency leak fixes, and sanitary fittings in Dharamshala.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Our Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Leak Repair</a></li>
+            <li><a href="#services">Pipe Fitting</a></li>
+            <li><a href="#services">Bathroom Fitting</a></li>
+            <li><a href="#services">Water Tank Cleaning</a></li>
+            <li><a href="#services">Drain Unblocking</a></li>
+            <li><a href="#services">Water Heater Installation</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Hours -->
+        <div class="footer-col footer-col-contact">
+          <h4 class="footer-title">Contact & Hours</h4>
+          <p class="footer-meta-item">
+            <strong>Address:</strong> <span data-business="address">Main Bazaar, Dharamshala, Himachal Pradesh</span>
+          </p>
+          <p class="footer-meta-item">
+            <strong>Phone:</strong> <a href="tel:+910000000000" data-business-link="phone" data-business="phone">+91 00000 00000</a>
+          </p>
+          <p class="footer-meta-item">
+            <strong>Email:</strong> <a href="mailto:hello@yourbusiness.com" data-business-link="email" data-business="email">hello@yourbusiness.com</a>
+          </p>
+          <p class="footer-meta-item">
+            <strong>Hours:</strong> <span data-business="hours">8 AM to 9 PM, all 7 days. 24/7 emergency service.</span>
+          </p>
+
+          <!-- Social Icons (Inline SVG) -->
+          <div class="footer-social-row">
+            <!-- Facebook -->
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="AquaFix on Facebook">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="AquaFix on Instagram">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <!-- X / Twitter -->
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="AquaFix on X">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="AquaFix on LinkedIn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <!-- YouTube -->
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="AquaFix on YouTube">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#0A192F"></polygon>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> <span data-business="name">AquaFix Plumbing Services</span>. All rights reserved.
+        </p>
+        <p class="sample-site-badge">Bespoke Plumbing Craftsmanship • 2D Precision</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
+  <aside class="floating-whatsapp-container" aria-label="WhatsApp quick contact">
+    <a 
+      href="https://wa.me/910000000000" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="floating-whatsapp-btn" 
+      data-business-link="whatsapp"
+      aria-label="Chat with AquaFix Plumbing Services on WhatsApp"
+    >
+      <span class="whatsapp-btn-text">WhatsApp Us</span>
+      <span class="whatsapp-btn-icon">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+          <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.05-1.07l-.29-.17-3.12.82.83-3.04-.19-.3a8.21 8.21 0 0 1-1.26-4.48c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.19-.09-1.12-.55-1.29-.62-.17-.06-.3-.09-.43.09-.12.19-.5 1.62-.61.75-.12.12-.24.14-.43.05-.19-.1-.8-.29-1.52-.93-.56-.5-.94-1.12-1.05-1.31-.11-.19-.01-.29.08-.38.08-.08.19-.22.28-.33.09-.11.12-.19.19-.31.06-.12.03-.24-.01-.33-.05-.09-.43-1.03-.59-1.42-.15-.37-.3-.32-.43-.33-.11-.01-.24-.01-.37-.01-.12 0-.33.05-.5.24-.17.19-.66.65-.66 1.58 0 .93.68 1.83.77 1.96.1.12 1.34 2.05 3.25 2.87.45.2.81.31 1.09.4.46.15.87.13 1.2.08.37-.06 1.12-.46 1.28-.9.16-.45.16-.83.11-.91-.04-.08-.17-.13-.36-.23z"></path>
+        </svg>
+      </span>
+    </a>
+  </aside>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
